@@ -28,14 +28,48 @@ recommendations or stock photos. Keep source URL parameters/watermarks unchanged
 
 On 2026-09-06 IPRoyal Singapore residential retrieved both public listing pages:
 Pasir Ris 8 has 8 photos + 1 floor plan, Sea Horizon 9 photos + 1 floor plan.
-The exact gallery URLs are retained for source-CDN delivery, **not verified reliable**:
-direct HTTP, direct Chromium and IPRoyal datacenter Chromium received CDN 403
-challenges. Residential page fetching rejects image content types. No access
-controls were bypassed. Photos may therefore show the fallback until the source
-CDN permits delivery; no unavailable image is claimed as successfully downloaded.
-These external images send ordinary requests to 99.co. No raw listing HTML or
-agent contact details are published. A future authorized download can use same-site
-assets for reliability, retaining `sourceUrl` and unchanged image bytes/watermarks.
+**Local/static hosting is required; external image hotlinks are not an acceptable
+fallback.** The URLs currently in this draft are source discovery evidence only,
+not approved delivery. Do not merge this draft until they have been replaced by
+verified local assets. Download the actual published image bytes to
+`assets/listings/<listing-id>/`, commit them, and use relative `src` paths such as
+`assets/listings/pasir-ris-8-99co/photo-01.jpg` (no leading slash), compatible with
+GitHub Pages at `/listing-map/`. Keep the exact published URL in `sourceUrl` for
+attribution/provenance; never use that field as an external image fallback.
+The gallery URL resolver must be updated and tested for relative paths before
+local assets can be delivered; the draft currently accepts absolute URLs only.
+
+Validate a successful HTTP response, image MIME type, magic bytes, full image
+decoding and dimensions before adding any file. Never save challenge HTML with an
+image extension. Preserve visible watermarks, the complete uncropped photo and
+source attribution. For phones, retain useful photo/floor-plan detail; use modest
+compression and responsive sizes only after visually checking watermark and text
+legibility. Do not enlarge, invent, substitute or remove watermarks. Verify every
+local URL under `/listing-map/` in desktop/mobile browsers and after deployment.
+
+### Local-download follow-up (2026-09-06)
+Refreshed this draft with main including PR #6; all five records and their existing
+fields, notes and statuses are preserved. **0 of 19 image files downloaded; no
+photo feature merged or deployed.** Current capability discovery found:
+
+- IPRoyal account access works. Singapore residential page fetching still returns
+  an HTML artifact for the Pasir Ris listing. Inspection found no original gallery
+  image embedded as binary data (the embedded JPEG is an unrelated 404 blur asset,
+  not a listing photo, and was not substituted).
+- `FETCH_RESIDENTIAL_WEB_PAGE` and `FETCH_DATACENTER_WEB_PAGE` expose bounded page
+  retrieval, not a binary-download/content-type override. The prior image MIME
+  rejection cannot be fixed with any documented input to these commands.
+- Broker `DOWNLOAD_FILE` takes an attachment/artifact ID, not a public URL; it is
+  not an arbitrary image downloader. Broker offers datacenter Chrome only, not a
+  residential browser. Proxy previews are redacted, not usable download credentials.
+- Prior direct/proxied Chromium image requests returned CDN 403. With no newly
+  supported binary method identified, those known-failing requests were not blindly
+  repeated, and no challenge or connector content-type restriction was bypassed.
+
+Unblocking requires a supported, authorized residential binary-download interface
+or user-provided original listing image files. Then validate all 19 assets, adapt
+relative-path handling, test local delivery and only merge/deploy after acceptance.
+No raw listing HTML or agent contact details are published.
 
 Browser regression test: with Playwright installed and the site served on port
 8000, run `node tests/gallery.cjs`. This deliberately mocks failed image responses
@@ -45,7 +79,9 @@ and horizontal overflow. It does **not** establish real CDN delivery.
 ### Pending reusable-template addition
 Template 14 / version ID 21 and user memory could not be edited in this background
 context (template-version read permission denied; memory download HTTP 403). Preserve
-all existing template instructions and append the following once access is restored:
+all existing template instructions and append the following once access is restored.
+The follow-up again received template-version permission denied and user-memory
+HTTP 403, so neither was overwritten or replaced with incomplete instructions:
 
 > For each future URL addition, collect all publicly accessible photos and floor
 > plans from that exact listing's gallery into the optional `images` schema above.
@@ -53,8 +89,14 @@ all existing template instructions and append the following once access is resto
 > portraits, recommendations and unrelated project/stock images. Never invent URLs,
 > bypass access controls or remove watermarks. Preserve source attribution and URL
 > parameters. Verify HTTP status, image MIME type and actual image decoding before
-> claiming availability. Prefer verified unchanged same-site copies when permitted;
-> otherwise verify source-CDN delivery in browsers. Record `imagesChecked` and
+> claiming availability. Download and commit actual image files under `assets/listings/<id>/`; use
+> relative local `src` paths compatible with `/listing-map/`, never hotlink. Retain
+> exact original URLs in `sourceUrl`. Check magic bytes, decoding and dimensions,
+> preserve visible watermarks and attribution, and optimize modestly for phones.
+> Never substitute challenge HTML or unrelated images. If downloads are blocked,
+> report the blocker and retain useful work in a draft PR; do not merge broken
+> photo delivery. Verify every local image URL in desktop/mobile browsers and on
+> the deployed site before claiming completion. Record `imagesChecked` and
 > provenance/limitations in `imagesNote`; use an empty array if none are obtainable.
 > Preserve existing images and user notes/status on refresh unless verified changes
 > warrant updating them. Test navigation, missing/broken-image fallback, lazy loading,
