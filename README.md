@@ -13,4 +13,5 @@ Serve this directory with `python -m http.server 8000`, then open localhost:8000
 
 Map library: Leaflet 1.9.4 from unpkg. Tiles: OpenStreetMap; attribution is displayed. These third parties receive normal browser requests. Map requires internet; card links remain usable if Leaflet fails. There is no automatic scraping or price refresh.
 
-Initial 99.co listing details could not be fetched (HTTP 403). Title is based on the provided URL; price and beds remain unknown. The initial pin is explicitly approximate, using an OpenStreetMap Nominatim Pasir Ris station result, not verified property coordinates.
+## Initial listing verification
+On 2026-09-06 the exact 99.co listing was retrieved using IPRoyal Singapore residential HTTP. Datacenter HTTP and proxied Chrome remained blocked by Cloudflare. Page text and Product/Apartment JSON-LD confirmed S$5,800/month, 3 bedrooms, 2 bathrooms, 1,066 sqft, 7 Pasir Ris Central 519612, high floor and built year 2026. The pin now uses that listing's published coordinates, not Pasir Ris station. It represents the property's map location, not a verified unit entrance. Availability and immediate move-in remain advertiser claims. The page's dates are inconsistent, so no last-updated date was inferred. Contact details and raw page archives are not published.
