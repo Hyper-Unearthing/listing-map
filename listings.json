@@ -19,5 +19,28 @@
     "builtYear": 2026,
     "sourceChecked": "2026-09-06",
     "sourceNote": "Exact listing retrieved via IPRoyal Singapore residential route. Price, bedrooms, size, address and coordinates checked against page text and structured data. Availability is an advertiser claim, not independently confirmed."
+  },
+  {
+    "id": "sea-horizon-99co-GS5kBDZtJ4WvSnFasVaqAz",
+    "title": "3 Bed Executive Condo for Rent in Sea Horizon - 1,033 sqft",
+    "url": "https://www.99.co/singapore/rent/property/sea-horizon-condo-GS5kBDZtJ4WvSnFasVaqAz",
+    "address": "1 Pasir Ris Rise, Singapore 518080",
+    "price": 4350,
+    "beds": 3,
+    "status": "Interested",
+    "viewing": "",
+    "notes": "2 bathrooms \u00b7 1,033 sq ft \u00b7 Mid floor. Advertiser describes a freshly repainted, bright and breezy home with no west sun, enclosed kitchen, utility room and separate storeroom. Move-in readiness and availability are advertiser claims, not independently confirmed.",
+    "lat": 1.376586744684,
+    "lng": 103.95845111146009,
+    "approximate": false,
+    "locationSource": "99.co listing Product/Apartment JSON-LD geo; property map location, not an exact unit.",
+    "baths": 2,
+    "areaSqft": 1033,
+    "floorLevel": "Mid",
+    "builtYear": 2016,
+    "description": "Naturally Bright & Breezy | No West Sun \n\nFreshly repainted and thoughtfully refreshed, this home is ready for you to move right in.\n\n- 3 generous bedrooms\n-  2 bathrooms\n-  Functional enclosed kitchen\n-  Utility room and separate storeroom\n-  Efficient, squarish layout with minimal wasted space\n\nA well-maintained home that offers both comfort and practicality\u2014ideal for families looking for a move-in-ready residence.",
+    "currency": "SGD",
+    "sourceChecked": "2026-09-06",
+    "sourceNote": "Exact listing retrieved via IPRoyal Singapore residential route. Monthly rent, bedrooms, bathrooms, size, address, floor and built year checked against page text; description, SGD currency and published coordinates from Product/Apartment JSON-LD. Availability is an advertiser claim, not independently confirmed. No last-updated date inferred from inconsistent page dates."
   }
 ]
