@@ -18,7 +18,74 @@
     "floorLevel": "High",
     "builtYear": 2026,
     "sourceChecked": "2026-09-06",
-    "sourceNote": "Exact listing retrieved via IPRoyal Singapore residential route. Price, bedrooms, size, address and coordinates checked against page text and structured data. Availability is an advertiser claim, not independently confirmed."
+    "sourceNote": "Exact listing retrieved via IPRoyal Singapore residential route. Price, bedrooms, size, address and coordinates checked against page text and structured data. Availability is an advertiser claim, not independently confirmed.",
+    "images": [
+      {
+        "src": "https://pic2.99.co/v3/kTiXbkzfqjNBhb6qGBWSr2?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=7247973892f882e6d25a21a30a68b39c74bf51e7",
+        "sourceUrl": "https://pic2.99.co/v3/kTiXbkzfqjNBhb6qGBWSr2?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=7247973892f882e6d25a21a30a68b39c74bf51e7",
+        "alt": "Others of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 1",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/DXmuxHMopRTjE4Wwjg3sYD?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=714d1efa6efa0649f5586a3c558637166da33e69",
+        "sourceUrl": "https://pic2.99.co/v3/DXmuxHMopRTjE4Wwjg3sYD?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=714d1efa6efa0649f5586a3c558637166da33e69",
+        "alt": "Kitchen of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 2",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/4w9yrrPsR3N6MqujhUyVtJ?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=96e39cb715300874a87c807d5a907eef8fafee80",
+        "sourceUrl": "https://pic2.99.co/v3/4w9yrrPsR3N6MqujhUyVtJ?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=96e39cb715300874a87c807d5a907eef8fafee80",
+        "alt": "Kitchen of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 3",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/Cm4jmPaSE4MxGeRqHo4owi?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=a1c55f78edb501a7e8258624ab4f748ff406d0a5",
+        "sourceUrl": "https://pic2.99.co/v3/Cm4jmPaSE4MxGeRqHo4owi?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=a1c55f78edb501a7e8258624ab4f748ff406d0a5",
+        "alt": "Bedroom of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 4",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/D6QTSGW2D5QzSqmVGGsKgX?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=579460ed264bfc13650bce4a7889876994234076",
+        "sourceUrl": "https://pic2.99.co/v3/D6QTSGW2D5QzSqmVGGsKgX?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=579460ed264bfc13650bce4a7889876994234076",
+        "alt": "Others of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 5",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/2mQWYtHv7wGb7PEsU4MQrW?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=20d9f4a64b9d728db7d6c22446e9aee70c5c1ca3",
+        "sourceUrl": "https://pic2.99.co/v3/2mQWYtHv7wGb7PEsU4MQrW?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=20d9f4a64b9d728db7d6c22446e9aee70c5c1ca3",
+        "alt": "Bathroom of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 6",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/wuqxfdvxKtEp42nt9WzND7?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=b46c0a7ff8e38682bd34142f60c079a0a780a402",
+        "sourceUrl": "https://pic2.99.co/v3/wuqxfdvxKtEp42nt9WzND7?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=b46c0a7ff8e38682bd34142f60c079a0a780a402",
+        "alt": "Others of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 7",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/iNBhrhWnGNan97DBU8oa4A?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=a990e97732a7090bd02e9d5697646410166d1704",
+        "sourceUrl": "https://pic2.99.co/v3/iNBhrhWnGNan97DBU8oa4A?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=a990e97732a7090bd02e9d5697646410166d1704",
+        "alt": "Bathroom of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 8",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/N8o4mpRvyRW5XbeeVxjnsN?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=6de5952336cf905574026ccba0ab013fa5feb8af",
+        "sourceUrl": "https://pic2.99.co/v3/N8o4mpRvyRW5XbeeVxjnsN?text=Joan+Chua&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=6de5952336cf905574026ccba0ab013fa5feb8af",
+        "alt": "Floor Plan of 1,066 sqft Condo for Rent in Pasir Ris 8 / Pasir Ris Mall - Project Photos 9",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "imagesChecked": "2026-09-06",
+    "imagesNote": "Exact public 99.co gallery URLs, including floor plan. Image delivery could not be verified: CDN returned 403 to direct and datacenter browser requests; residential connector does not support image bodies. Source watermarks and URL parameters unchanged. Advertiser photos may not depict the exact unit."
   },
   {
     "id": "sea-horizon-99co-GS5kBDZtJ4WvSnFasVaqAz",
@@ -41,6 +108,80 @@
     "description": "Naturally Bright & Breezy | No West Sun \n\nFreshly repainted and thoughtfully refreshed, this home is ready for you to move right in.\n\n- 3 generous bedrooms\n-  2 bathrooms\n-  Functional enclosed kitchen\n-  Utility room and separate storeroom\n-  Efficient, squarish layout with minimal wasted space\n\nA well-maintained home that offers both comfort and practicality\u2014ideal for families looking for a move-in-ready residence.",
     "currency": "SGD",
     "sourceChecked": "2026-09-06",
-    "sourceNote": "Exact listing retrieved via IPRoyal Singapore residential route. Monthly rent, bedrooms, bathrooms, size, address, floor and built year checked against page text; description, SGD currency and published coordinates from Product/Apartment JSON-LD. Availability is an advertiser claim, not independently confirmed. No last-updated date inferred from inconsistent page dates."
+    "sourceNote": "Exact listing retrieved via IPRoyal Singapore residential route. Monthly rent, bedrooms, bathrooms, size, address, floor and built year checked against page text; description, SGD currency and published coordinates from Product/Apartment JSON-LD. Availability is an advertiser claim, not independently confirmed. No last-updated date inferred from inconsistent page dates.",
+    "images": [
+      {
+        "src": "https://pic2.99.co/v3/tguTsY4Xcg38EdtzAcZ39g?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=482ba281e9024077e5f1750610b7b444e76f939d",
+        "sourceUrl": "https://pic2.99.co/v3/tguTsY4Xcg38EdtzAcZ39g?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=482ba281e9024077e5f1750610b7b444e76f939d",
+        "alt": "Living Room of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 1",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/YhyMS7fZGzvE9WFkPJfkyR?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=1309e4ff83264ae0c3d4ec93f324063c838b030e",
+        "sourceUrl": "https://pic2.99.co/v3/YhyMS7fZGzvE9WFkPJfkyR?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=1309e4ff83264ae0c3d4ec93f324063c838b030e",
+        "alt": "Living Room of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 2",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/ceJBFkdBCd3yomBknFj7C3?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=41ab8bb02dc766e76e05f806d456979f472ee7d5",
+        "sourceUrl": "https://pic2.99.co/v3/ceJBFkdBCd3yomBknFj7C3?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=41ab8bb02dc766e76e05f806d456979f472ee7d5",
+        "alt": "Living Room of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 3",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/XPnvUqUyTJMj7dthhyj3jC?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=80967cf8088561ca2fd68f635824b81d02855579",
+        "sourceUrl": "https://pic2.99.co/v3/XPnvUqUyTJMj7dthhyj3jC?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=80967cf8088561ca2fd68f635824b81d02855579",
+        "alt": "Kitchen of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 4",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/q4iatVSZNvxnpU7rKaqJk3?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=1e8814a777cd8525658169c0391701320ae7a9b8",
+        "sourceUrl": "https://pic2.99.co/v3/q4iatVSZNvxnpU7rKaqJk3?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=1e8814a777cd8525658169c0391701320ae7a9b8",
+        "alt": "Bedroom of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 5",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/WGkWBitm8tBou4ecb9C6VX?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=3df65d94961b21a4fd6f968f5fd94386c75d6130",
+        "sourceUrl": "https://pic2.99.co/v3/WGkWBitm8tBou4ecb9C6VX?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=3df65d94961b21a4fd6f968f5fd94386c75d6130",
+        "alt": "Bedroom of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 6",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/wFfzcHYmZdhNw5MkNReBUN?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=39e619ff5d47eb0da5a3db9b464b8ab0644dbd36",
+        "sourceUrl": "https://pic2.99.co/v3/wFfzcHYmZdhNw5MkNReBUN?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=39e619ff5d47eb0da5a3db9b464b8ab0644dbd36",
+        "alt": "Bedroom of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 7",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/w27rA4cMGjsYhM4aNyaKwC?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=6548b1b963eb50e00f1c9786e27ab50b35d009c3",
+        "sourceUrl": "https://pic2.99.co/v3/w27rA4cMGjsYhM4aNyaKwC?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=6548b1b963eb50e00f1c9786e27ab50b35d009c3",
+        "alt": "Bathroom of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 8",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/MMkd26TxtWBG9eCmzkJCNW?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=76e86b832a5be55975b4f52cd7f463f6bcfd5019",
+        "sourceUrl": "https://pic2.99.co/v3/MMkd26TxtWBG9eCmzkJCNW?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=76e86b832a5be55975b4f52cd7f463f6bcfd5019",
+        "alt": "Kitchen of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 9",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "https://pic2.99.co/v3/rBbJHseTqEaZeYhTPdK6gA?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=76341c7bd50b9ba6c985dad3cb23e03e3df652c3",
+        "sourceUrl": "https://pic2.99.co/v3/rBbJHseTqEaZeYhTPdK6gA?text=Kenix+Chong&sampling=lanczos&version=1&height=600&width=800&mode=fill&quality=80&convert_if_png=true&signature=76341c7bd50b9ba6c985dad3cb23e03e3df652c3",
+        "alt": "Floor Plan of 1,033 sqft Executive Condo for Rent in Sea Horizon - Project Photos 10",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "imagesChecked": "2026-09-06",
+    "imagesNote": "Exact public 99.co gallery URLs, including floor plan. Image delivery could not be verified: CDN returned 403 to direct and datacenter browser requests; residential connector does not support image bodies. Source watermarks and URL parameters unchanged. Advertiser photos may not depict the exact unit."
   }
 ]
