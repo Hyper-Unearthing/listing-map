@@ -42,5 +42,26 @@
     "currency": "SGD",
     "sourceChecked": "2026-09-06",
     "sourceNote": "Exact listing retrieved via IPRoyal Singapore residential route. Monthly rent, bedrooms, bathrooms, size, address, floor and built year checked against page text; description, SGD currency and published coordinates from Product/Apartment JSON-LD. Availability is an advertiser claim, not independently confirmed. No last-updated date inferred from inconsistent page dates."
+  },
+  {
+    "id": "propertyguru-18067063",
+    "title": "PropertyGuru listing 18067063 \u2014 details unverified",
+    "url": "https://www.propertyguru.com.sg/l/18067063",
+    "address": null,
+    "price": null,
+    "currency": null,
+    "beds": null,
+    "baths": null,
+    "areaSqft": null,
+    "description": null,
+    "status": "Interested",
+    "viewing": "",
+    "notes": "Listing details and photos unknown: PropertyGuru blocked retrieval with a Cloudflare HTTP 403 challenge before the short link could resolve. Rent, bedrooms, bathrooms, size, address and availability have not been verified.",
+    "lat": null,
+    "lng": null,
+    "approximate": false,
+    "locationSource": "Unknown; no published coordinates retrieved and no location inferred.",
+    "sourceChecked": "2026-09-06",
+    "sourceNote": "IPRoyal Singapore residential fetch of the supplied short URL returned HTTP 403 (Cloudflare challenge), with no redirect or listing content. Search fallback returned HTTP 429. Title is a placeholder based only on the supplied URL ID; description, currency and all property details remain unknown. No source photos could be extracted."
   }
 ]
